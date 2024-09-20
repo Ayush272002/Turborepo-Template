@@ -16,7 +16,7 @@
   "types": "./dist/index.d.mts",
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch",
+    "dev": "TSUP_WATCH=true tsup --watch",
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component"
   },

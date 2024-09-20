@@ -8,6 +8,9 @@ export default defineConfig({
   sourcemap: true,
   clean: true,
   external: ["react"],
-  watch: true,
+  watch: process.env.TSUP_WATCH === "true",
   outDir: "dist",
+  loader: {
+    ".css": "css",
+  },
 });
