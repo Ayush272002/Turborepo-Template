@@ -11,9 +11,9 @@ This Turborepo includes the following packages/apps:
 - `docs`: a [Next.js](https://nextjs.org/) app
 - `web`: another [Next.js](https://nextjs.org/) app
 - `storybook`: [React.js](https://react.dev/) app with storybbok initialised, it can be used as a react app but more specifically wanted it to test components independently using storybook
-- `backend`: [Express.js](https://expressjs.com/) app
+- `backend`: [Express.js](https://expressjs.com/) app and [esbuild](https://esbuild.github.io/) as the bundler
 - `@repo/db and @repo/db_serverless`: both are initialised with [prisma](https://www.prisma.io/) the serverless can be used with hono or any other serverless function, and both of them exposes the prisma client.
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications which includes [shadcn](https://ui.shadcn.com/) and [MUI - material ui](https://mui.com/material-ui/getting-started/) and with [tsup](https://tsup.egoist.dev/) bundler
+- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications which includes [shadcn](https://ui.shadcn.com/) and [MUI - material ui](https://mui.com/material-ui/getting-started/) and [tsup](https://tsup.egoist.dev/) as the bundler
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
 - `@repo/tailwind-config`: `tailwind.config.js`s used throughout the monorepo
