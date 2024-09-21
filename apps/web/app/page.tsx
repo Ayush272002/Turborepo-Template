@@ -1,5 +1,5 @@
 "use client";
-import { Button } from "@repo/ui";
+import { Button, InputBox } from "@repo/ui";
 
 export default function Home() {
   return (
@@ -11,6 +11,9 @@ export default function Home() {
       >
         Click me
       </Button>
+      <div className="bg-white">
+        <InputBox placeholder="Type here" onChange={() => {}} />
+      </div>
     </div>
   );
 }
