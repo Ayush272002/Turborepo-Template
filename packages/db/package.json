@@ -8,10 +8,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "prisma": "^6.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
   "dependencies": {
-    "prisma": "^5.19.1",
-    "@prisma/client": "^5.19.1"
+    "@prisma/client": "^6.0.1"
   },
   "exports": {
     "./client": "./src/index.ts"

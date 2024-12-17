@@ -5,7 +5,11 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "allowImportingTsExtensions": true,
+    "noEmit": true
   },
   "include": ["src", "components.json"],
   "exclude": ["node_modules", "dist"]

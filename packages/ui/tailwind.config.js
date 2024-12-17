@@ -1,11 +1,13 @@
-const sharedConfig = require("@repo/tailwind-config/tailwind.config.js");
+import sharedConfig from '@repo/tailwind-config/tailwind.config.js';
+import shadcnPreset from './shadcn-preset.js';
 
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   ...sharedConfig,
+  darkMode: ['class'],
   content: [
-    "./src/**/*.{js,jsx,ts,tsx,mdx}",
-    "./components/**/*.{js,jsx,ts,tsx,mdx}",
+    './src/**/*.{js,jsx,ts,tsx,mdx}',
+    './components/**/*.{js,jsx,ts,tsx,mdx}',
   ],
-  presets: [require("./shadcn-preset.js")],
+  presets: [shadcnPreset],
 };

@@ -8,12 +8,12 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@repo/ui": ["../ui/src"]
+      "@repo/ui": ["../../packages/ui/dist"]
     }
   },
   "include": [
     "next-env.d.ts",
-    "next.config.mjs",
+    "next.config.js",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"

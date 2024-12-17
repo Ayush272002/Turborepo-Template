@@ -1,7 +1,11 @@
-import "../styles/globals.css";
+import '../styles/globals.css';
 
-export * from "./button";
-export * from "./card";
-export * from "./code";
-export * from "./input-box";
-export * from "./components/ui/button";
+// shadcn-ui
+export * from './components/ui/button';
+export * from './components/ui/card';
+export * from './components/ui/input';
+export * from './components/ui/select';
+export * from './components/ui/tabs';
+
+// mui
+export * from './components/mui/ImageAvatars';
