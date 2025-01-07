@@ -4,54 +4,26 @@ updates:
     directory: '/'
     schedule:
       interval: 'weekly'
-    open-pull-requests-limit: 2
-    allow:
-      - dependency-name: 'husky'
-      - dependency-name: 'lint-staged'
-      - dependency-name: 'prettier'
-      - dependency-name: 'turbo'
-
-  - package-ecosystem: 'npm'
-    directory: '/apps/web'
-    schedule:
-      interval: 'weekly'
-    open-pull-requests-limit: 3
-    allow:
-      - dependency-name: 'next'
-      - dependency-name: 'react'
-      - dependency-name: 'react-dom'
-      - dependency-name: '@types/react'
-      - dependency-name: '@types/react-dom'
-
-  - package-ecosystem: 'npm'
-    directory: '/apps/docs'
-    schedule:
-      interval: 'weekly'
-    open-pull-requests-limit: 3
-    allow:
-      - dependency-name: 'next'
-      - dependency-name: 'react'
-      - dependency-name: 'react-dom'
-      - dependency-name: '@types/react'
-      - dependency-name: '@types/react-dom'
+    open-pull-requests-limit: 20
+    labels:
+      - 'dependencies'
+      - 'npm'
+    versioning-strategy: auto
 
   - package-ecosystem: 'npm'
     directory: '/apps/backend'
     schedule:
       interval: 'weekly'
-    open-pull-requests-limit: 2
-    allow:
-      - dependency-name: 'express'
-      - dependency-name: '@types/express'
-      - dependency-name: 'cors'
-      - dependency-name: '@types/cors'
-      - dependency-name: 'dotenv'
+    labels:
+      - 'dependencies'
+      - 'npm'
+      - 'backend'
 
   - package-ecosystem: 'npm'
     directory: '/packages/db'
     schedule:
       interval: 'weekly'
-    open-pull-requests-limit: 2
-    allow:
-      - dependency-name: 'prisma'
-      - dependency-name: '@prisma/client'
+    labels:
+      - 'dependencies'
+      - 'npm'
+      - 'db'
