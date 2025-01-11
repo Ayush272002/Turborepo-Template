@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      interval: 'weekly'
+      interval: 'daily'
     open-pull-requests-limit: 30
     labels:
       - 'dependencies'
@@ -13,7 +13,7 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/apps/backend'
     schedule:
-      interval: 'weekly'
+      interval: 'daily'
     labels:
       - 'dependencies'
       - 'npm'
@@ -22,7 +22,7 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/packages/db'
     schedule:
-      interval: 'weekly'
+      interval: 'daily'
     labels:
       - 'dependencies'
       - 'npm'
