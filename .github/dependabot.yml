@@ -3,8 +3,7 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      interval: 'cron'
-      cron: '30 9 * * *'
+      interval: 'daily'
     open-pull-requests-limit: 30
     labels:
       - 'dependencies'
@@ -14,8 +13,7 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/apps/backend'
     schedule:
-      interval: 'cron'
-      cron: '30 9 * * *'
+      interval: 'daily'
     labels:
       - 'dependencies'
       - 'npm'
@@ -24,8 +22,7 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/packages/db'
     schedule:
-      interval: 'cron'
-      cron: '30 9 * * *'
+      interval: 'daily'
     labels:
       - 'dependencies'
       - 'npm'
