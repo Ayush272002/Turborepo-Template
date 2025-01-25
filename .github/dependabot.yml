@@ -9,9 +9,6 @@ updates:
       - 'dependencies'
       - 'npm'
     versioning-strategy: auto
-    ignore:
-      - dependency-name: "npm"
-        versions: ["<7.0.0", ">=11.0.0"]
 
   - package-ecosystem: 'npm'
     directory: '/apps/backend'
@@ -21,9 +18,6 @@ updates:
       - 'dependencies'
       - 'npm'
       - 'backend'
-    ignore:
-      - dependency-name: "npm"
-        versions: ["<7.0.0", ">=11.0.0"]
 
   - package-ecosystem: 'npm'
     directory: '/packages/db'
@@ -33,6 +27,3 @@ updates:
       - 'dependencies'
       - 'npm'
       - 'db'
-    ignore:
-      - dependency-name: "npm"
-        versions: ["<7.0.0", ">=11.0.0"]
