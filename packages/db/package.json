@@ -11,7 +11,7 @@
   "type": "commonjs",
   "description": "",
   "devDependencies": {
-    "@types/node": "^22.13.4",
+    "@types/node": "^22.15.10",
     "prisma": "^6.4.1",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3"
