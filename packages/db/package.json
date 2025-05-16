@@ -17,7 +17,7 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "@prisma/client": "^6.4.1"
+    "@prisma/client": "^6.8.1"
   },
   "exports": {
     "./client": "./src/index.ts"
